@@ -1,0 +1,182 @@
+body {
+	background-size: 100%;
+	background-color: #f7f7f7;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #fff;
+	opacity: 0;
+}
+
+div#content-wrapper {
+	height: 100%;
+	min-width: 900px;
+	min-height: 500px;
+}
+html.touch div#content-wrapper {
+	min-width: 700px;
+}
+.scrollContainer {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	min-width: 650px;
+	width: 100%;
+}
+.scrollContent {
+	position: relative;
+	/*height: 100%;*/
+}
+section {
+	height: 100vh;
+	position: relative;
+	z-index: 8888;
+}
+
+section#scroll-section {
+}
+
+.back-div {
+	position: absolute;
+	font-size: 3in;
+	font-weight: bold;
+	color: #ffffff;
+	left: 50%;
+	top: calc( 50% + 10vh);
+	transform: translate(-50%, -50%);
+
+}
+.img-1 {
+	position: absolute;
+	top: 44%;
+	left: 33%;
+	width: 325px;
+	height: 260px;
+}
+
+.img-2 {
+	position: absolute;
+	width: 313px;
+	height: 303px;
+	left: 2%;
+	top: 52%;
+}
+
+.img-3 {
+	position: absolute;
+	top: 44%;
+	height: 425px;
+	left: 33%;
+	width: 425px;
+}
+
+.img-4 {
+	position: absolute;
+	width: 323px;
+	height: 323px;
+	left: -10%;
+}
+
+.img-5 {
+	position: absolute;
+	width: 330px;
+	height: 330px;
+	left: 0;
+	top: 50%
+}
+
+.img-6 {
+	position: absolute;
+	width: 330px;
+	height: 330px;
+	left: -113%;
+	top: -99%;
+}
+
+.img-7 {
+	position: absolute;
+	width: 324px;
+	height: 324px;
+	left: 70%;
+	top: 83%;
+}
+
+.title-div {
+	position: absolute;
+	font-size: 57px;
+	font-weight: 700;
+	font-family: cursive;
+	color: #ec219b;
+	opacity: 0;
+	text-align: center;
+}
+
+.text-div {
+	position: absolute;
+	width: 306px;
+	height: 80px;
+	font-size: 22px;
+	top: 100%;
+	left: -275px;
+	opacity: 0;
+}
+
+.names {
+	position: absolute;
+	opacity: 0;
+	font-size: 18px;
+}
+
+.text-div-1 {
+	position: absolute;
+	width: 306px;
+	height: 80px;
+	font-size: 22px;
+	top: 100%;
+	left: -275px;
+	opacity: 0;
+}
+
+/*START*/
+
+#scroll-animation-div {
+	display: block;
+	width: 650px;
+	height: 400px;
+	top: 45%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -60%);
+	-moz-transform: translate(-50%, -60%);
+	transform: translate(-50%, -60%);
+	position: absolute;
+}
+
+html.touch body {
+	font-size: 25px;
+}
+html.touch #info #hatcontainer {
+	margin-bottom: 260px;
+	height: 300px;
+	width: 240px;
+}
+html.touch #info #hatcontainer .hat {
+	left: 90px;
+}
+html.touch #info #hatcontainer #bunny {
+	left: 110px;
+}
+html.touch #info #hatcontainer #speechbubble {
+	left: -20px;
+	top: 35px;
+}
+html.touch #info ul.nexttohat {
+	padding-left: 240px;
+}
+
